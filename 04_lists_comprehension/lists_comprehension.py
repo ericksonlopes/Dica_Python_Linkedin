@@ -1,4 +1,4 @@
-frutas = ['maça', 'banana', 'cherry', 'manga']
+frutas = [4321, 'banana', 1234, 'manga']
 
 # criando lista varia para adicionar itens
 lista_loop = []
