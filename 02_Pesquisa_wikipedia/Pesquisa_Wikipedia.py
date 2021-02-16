@@ -12,3 +12,4 @@ print(info)
 try:
     print()
 except Exception as error:
+    print(error)
