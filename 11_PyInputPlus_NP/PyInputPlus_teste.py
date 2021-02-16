@@ -1,7 +1,7 @@
 # Instalar biblioteca
 # pip install pyinputplus
 
-from pyinputplus import inputIp, inputMenu, inputNum, inputChoice, RetryLimitException
+from pyinputplus import inputIp, inputMenu, inputNum, inputChoice, RetryLimitException, inputURL
 
 # MENU
 # variavel = inputMenu(['Cachorro', 'Gato', 'Boi'])
@@ -10,11 +10,10 @@ from pyinputplus import inputIp, inputMenu, inputNum, inputChoice, RetryLimitExc
 
 # NUMERO
 # variavel = inputNum('Digite um número: ')
-# variavel = inputNum('Digite um número: ', max=4)
+# variavel = inputNum('Digite um número: ', max=9)
 
 # CHOICES
-# variavel = inputChoice(['1', '2'])
-
+variavel = inputChoice(['1', '2'])
 try:
     variavel = inputChoice(['1', '2'], limit=2)
 except RetryLimitException:
@@ -23,15 +22,9 @@ else:
     print(variavel)
 
 
-# class Carro:
-#     def __init__(self, carro):
-#         self.carro = carro
-#
-#     def printar_carro(self):
-#         print(self.carro)
-#
-#
-# carro = Carro('Fiat Uno')
-#
-# carro.printar_carro()
+# URL
+# variavel = inputURL(prompt='Digite  url que deseja encontrar: ')
+
+
+# print(variavel)
 
