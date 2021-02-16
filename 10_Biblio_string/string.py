@@ -21,10 +21,10 @@ print(string.digits)
 print(string.punctuation)
 # !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 
-# uma string contendo todos os espaços em branco ASCII
+# String contendo todos os espaços em branco ASCII
 print(string.whitespace)
 # ' \t\n\r\v\f'
 
-# uma string contendo todos os caracteres ASCII considerados imprimíveis
+# String contendo todos os caracteres ASCII considerados imprimíveis
 print(string.printable)
 # 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ \t\n\r\v\f'
