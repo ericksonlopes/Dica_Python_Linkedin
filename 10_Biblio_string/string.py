@@ -23,7 +23,7 @@ print(string.punctuation)
 
 # uma string contendo todos os espaços em branco ASCII
 print(string.whitespace)
-# 
+# ' \t\n\r\v\f'
 
 # uma string contendo todos os caracteres ASCII considerados imprimíveis
 print(string.printable)
