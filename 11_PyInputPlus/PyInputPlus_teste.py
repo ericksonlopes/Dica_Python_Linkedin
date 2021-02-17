@@ -15,6 +15,8 @@ url = inputURL(prompt='Digite uma url')
 num = inputNum(prompt='Digite apenas números')
 # 123
 
+
+# OUTROS TESTES
 # MENU
 # variavel = inputMenu(['Cachorro', 'Gato', 'Boi'])
 # variavel = inputMenu(['Cachorro', 'Gato', 'Boi'], numbered=True)
