@@ -1,7 +1,19 @@
 # Instalar biblioteca
 # pip install pyinputplus
 
-from pyinputplus import inputIp, inputMenu, inputNum, inputChoice, RetryLimitException, inputURL
+from pyinputplus import inputNum, inputURL, inputEmail
+
+# Aceita uma string
+email = inputEmail(prompt='Digite seu email: ')
+# erickson@gmail.com
+
+# Aceita apenas uma string no formato de url, retornando a string
+url = inputURL(prompt='Digite uma url')
+# loja.com
+
+# Aceita apenas um número inteiro, Retornando um int, não um str.
+num = inputNum(prompt='Digite apenas números')
+# 123
 
 # MENU
 # variavel = inputMenu(['Cachorro', 'Gato', 'Boi'])
@@ -13,13 +25,13 @@ from pyinputplus import inputIp, inputMenu, inputNum, inputChoice, RetryLimitExc
 # variavel = inputNum('Digite um número: ', max=9)
 
 # CHOICES
-variavel = inputChoice(['1', '2'])
-try:
-    variavel = inputChoice(['1', '2'], limit=2)
-except RetryLimitException:
-    print('Acabou suas chances')
-else:
-    print(variavel)
+# variavel = inputChoice(['1', '2'])
+# try:
+#     variavel = inputChoice(['1', '2'], limit=2)
+# except RetryLimitException:
+#     print('Acabou suas chances')
+# else:
+#     print(variavel)
 
 
 # URL
