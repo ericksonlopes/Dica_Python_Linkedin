@@ -5,15 +5,15 @@ from pyinputplus import inputNum, inputURL, inputEmail
 
 # Aceita uma string
 email = inputEmail(prompt='Digite seu email: ')
-# erickson@gmail.com
+# Digite seu email: erickson@gmail.com
 
 # Aceita apenas uma string no formato de url, retornando a string
-url = inputURL(prompt='Digite uma url')
-# loja.com
+url = inputURL(prompt='Digite uma url: ')
+# Digite uma url: erickson.com.br
 
 # Aceita apenas um número inteiro, Retornando um int, não um str.
-num = inputNum(prompt='Digite apenas números')
-# 123
+num = inputNum(prompt='Digite um número: ')
+# Digite um número: 369
 
 
 # OUTROS TESTES
