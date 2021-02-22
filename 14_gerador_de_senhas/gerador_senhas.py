@@ -14,7 +14,7 @@ all_carac = letters + number + punctuation
 # Definindo quantidade de caracteres
 lenght = 16
 
-# Concatena uma lista de strings recebida pelo sample
+# Concatena uma lista de strings aleatorias recebida pelo sample
 password = "".join(random.sample(all_carac, lenght))
 
 print(password)
