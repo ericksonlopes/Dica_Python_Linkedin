@@ -1,3 +1,4 @@
+# importe a biblioteca
 import csv
 
 # Abre/cria o arquivo no modo leitura
