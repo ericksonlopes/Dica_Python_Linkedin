@@ -12,5 +12,7 @@ engine.say('Trago conteúdo de segunda a sexta para vocês !!')
 # Executa
 engine.runAndWait()
 
+
+# https://pypi.org/project/pyttsx3/
 # pyttsx3 é uma biblioteca de conversão de texto em fala em Python.
 # Ao contrário das bibliotecas alternativas, ele funciona offline e é compatível com Python 2 e 3.
