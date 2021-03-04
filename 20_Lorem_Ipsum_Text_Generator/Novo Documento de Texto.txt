@@ -1,0 +1,23 @@
+Dica Python - Gerador de textos fictícios🐍
+
+
+
+📌Quer criar uma quantidade que deseja de texto e não sabe como ? Então conheça essa biblioteca incrível capaz de criar textos fictícios 
+
+
+
+🚀 Repositório do código: https://github.com/Erickson-lopes-dev/Dica_Python_Linkedin/tree/master/20_Lorem_Ipsum_Text_Generator
+
+➡️ Documentação: https://lorem-text.readthedocs.io/en/latest/readme.html
+
+
+
+
+
+💡Me segue ai para mais dicas como essa!
+
+↩️ Dica anterior: https://www.linkedin.com/posts/ericksonlopesdev_dicapython-python-dica-activity-6772465636548362240-KPv_
+
+
+
+#dicapython #python #dica #git #github #programador #programmingpython #notificacao #url
