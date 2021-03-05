@@ -1,5 +1,7 @@
+# instalar biblioteca
 # pip install docx2pdf
 
 from docx2pdf import convert
 
-convert('data.docx', 'new_data.pdf')
+# Documento antigo / Novo documento em pdf
+convert('documento.docx', 'documento_PDF.pdf')
