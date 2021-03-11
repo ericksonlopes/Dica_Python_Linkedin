@@ -3,9 +3,9 @@
 
 import fitz
 
-with fitz.open("documento.pdf") as doc:
+with fitz.open("docuemnto3.pdf") as doc:
     text = ""
     for page in doc:
         text += page.getText()
-
-print(text)
+        print(page.getText())
+# print(text)
