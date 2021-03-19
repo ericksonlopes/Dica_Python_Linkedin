@@ -2,7 +2,7 @@ def palindrome(var):
     return var == var[::-1]
 
 
-s = palindrome('ovo')
+s = palindrome('1')
 
 if s:
     print('Yes')
