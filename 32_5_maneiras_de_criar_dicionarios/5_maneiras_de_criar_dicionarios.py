@@ -18,8 +18,12 @@ dicio_4 = dict([('primeiro', 1), ('segundo', 2), ('terceiro', 3)])
 dicio_5 = dict({'primeiro': 1, 'segundo':  2, 'terceiro': 3})
 # {'primeiro': 1, 'segundo': 2, 'terceiro': 3}
 
+dicio_6 = {name: idx + 1 for idx, name in enumerate(('primeiro', 'segundo', 'terceiro'))}
+# {'primeiro': 1, 'segundo': 2, 'terceiro': 3}
+
 print(dicio_1)
 print(dicio_2)
 print(dicio_3)
 print(dicio_4)
 print(dicio_5)
+print(dicio_6)
