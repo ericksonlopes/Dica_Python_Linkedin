@@ -1,8 +1,11 @@
 import os
 
-os.mkdir('pasta_teste')  # Cria uma pasta
+# Cria uma pasta
+os.mkdir('pasta_teste')
 
-os.rmdir('pasta_teste')  # remove pasta
+# Remover uma pasta
+os.rmdir('pasta_teste')
 
-os.rename('arquivo_teste.txt', 'arquvio.txt') # renomeia arquivo
+# Renomear arquivos
+os.rename('arquivo_teste.txt', 'arquvio.txt')
 
