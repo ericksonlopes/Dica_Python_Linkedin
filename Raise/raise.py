@@ -4,5 +4,3 @@ num = 3
 if num > 2:
     # se passar na verificação executa o raise
     raise TypeError('A variável é maior que 2')
-
-
