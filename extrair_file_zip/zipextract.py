@@ -1,6 +1,7 @@
 from zipfile import ZipFile
 
 # instanciando obj e arquivo
-file = ZipFile('arquivo.zip')
+file = ZipFile('arquivo_zip.zip')
 
-file.extractall()
+# Escolha o path para os arquivos
+file.extractall(path='')
