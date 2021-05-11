@@ -19,3 +19,5 @@ result = conf.translate(frase)
 print('Palavras-Chaves: ', palavras, '\n')
 print('Frase :', frase)
 print('Tradução :', result)
+
+# https://www.linkedin.com/posts/philipvollet_machinelearning-nlp-datascience-activity-6797226874134233088-mEH4
