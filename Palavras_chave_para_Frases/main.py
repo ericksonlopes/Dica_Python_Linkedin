@@ -2,7 +2,7 @@
 from keytotext import pipeline
 from translate import Translator
 
-palavras = ['city', 'sky']
+palavras = ['city', 'my', 'house']
 
 # configurando tradução
 conf = Translator(from_lang='english', to_lang='pt-br')
