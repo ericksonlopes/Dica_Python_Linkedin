@@ -21,9 +21,7 @@ frase = nlp(palavras)
 result = frase_conf.translate(frase)
 
 print('Palavras-Chaves: ', palavras)
-
 print('Frase :', frase)
-
 print('Frase:', result)
 
 # https://www.linkedin.com/posts/philipvollet_machinelearning-nlp-datascience-activity-6797226874134233088-mEH4
