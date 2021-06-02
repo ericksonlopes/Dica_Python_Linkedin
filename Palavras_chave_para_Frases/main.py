@@ -2,22 +2,28 @@
 from keytotext import pipeline
 from translate import Translator
 
-palavras = ['city', 'my', 'house']
+palavras_pt_br = ['cadeira', 'eu']
 
-# configurando tradução
-conf = Translator(from_lang='english', to_lang='pt-br')
+# Configurando tradução
+plv_conf = Translator(from_lang='pt-br', to_lang='english')
+frase_conf = Translator(from_lang='english', to_lang='pt-br')
+
+# traduzindo as palavras para inglês
+palavras = [plv_conf.translate(plv) for plv in palavras_pt_br]
 
 # Importando
 nlp = pipeline('k2t')
 
-# Rerar frase
+# Gerar frase
 frase = nlp(palavras)
 
-# Especificando texto a ser traduzido
-result = conf.translate(frase)
+# Traduzir a frase para pt-br
+result = frase_conf.translate(frase)
 
-print('Palavras-Chaves: ', palavras, '\n')
+print('Palavras-Chaves: ', palavras)
+
 print('Frase :', frase)
-print('Tradução :', result)
+
+print('Frase:', result)
 
 # https://www.linkedin.com/posts/philipvollet_machinelearning-nlp-datascience-activity-6797226874134233088-mEH4
