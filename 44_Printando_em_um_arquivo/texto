@@ -1,0 +1,12 @@
+Dica Python - Printando em arquivos 🐍
+
+📌 A função print() também funciona para gravar dados em arquivos, veja no exemplo que adicionando o parâmetro file ao print, consquentemente,
+passando o arquivo em modo de leitura para esse parâmetro e vualá, seus dados são inseridos dentro do arquivo :)
+
+
+🚀 Repositório com o código:
+↩️Dica anterior:
+
+💡 Me segue ai para mais dicas como essa
+
+#dicapython #python #dica #git #github #programador #programmingpython #python3 #files
