@@ -1,3 +1,6 @@
+# Instalar biblioteca
+# pip install captcha
+
 from captcha.image import ImageCaptcha
 
 # criar uma instância com o tamanho da imagem
