@@ -1,7 +1,7 @@
 from gtts import gTTS
 from playsound import playsound
 
-# firetorio + Nome do arquivo
+# Diretorio + Nome do arquivo
 audio = "voz.mp3"
 
 # Linguagem em que o texto devera ser dito
