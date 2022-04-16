@@ -1,7 +1,8 @@
+# pip install requests
 import requests
 
 
-def baixar_arquivo(url: str, endereco: str):
+def baixar_arquivo(url: str, endereco: str) -> None:
     """Baixa arquivos publicos em links na internet em uma pasta.
     :param url: Link http ou https do arquivo na internet.
     :type url: String
@@ -16,7 +17,11 @@ def baixar_arquivo(url: str, endereco: str):
         resposta.raise_for_status()
 
 
-file_to_dowload = "https://www.linkedin.com/favicon.ico"
-path = 'image.ico'
-baixar_arquivo(file_to_dowload, path)
+# link do arquivo que deseja baixar
+file_url = "https://www.linkedin.com/favicon.ico"
 
+# nome que sera salvo
+name_file = 'image.ico'
+
+# executa função que realiza download
+baixar_arquivo(file_url, name_file)
