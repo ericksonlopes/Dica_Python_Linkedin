@@ -7,5 +7,5 @@ os.mkdir('pasta_teste')
 os.rmdir('pasta_teste')
 
 # Renomear arquivos
-os.rename('arquivo_teste.txt', 'arquvio.txt')
+os.rename('arquivo.txt', 'arquivo_renomeado.txt')
 
