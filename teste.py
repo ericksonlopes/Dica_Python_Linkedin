@@ -13,17 +13,17 @@
 # print(keyword.kwlist)
 #
 # print(keyword.iskeyword('try'))
-from pytest_cases import fixture, parametrize
-
-
-@fixture
-@parametrize()
-def soma(x, y) -> int:
-    return y + x
-
-
-def divizao(x, y):
-    return y * x
+# from pytest_cases import fixture, parametrize
+#
+#
+# @fixture
+# @parametrize()
+# def soma(x, y) -> int:
+#     return y + x
+#
+#
+# def divizao(x, y):
+#     return y * x
 
 #
 # def test_soma():
@@ -32,3 +32,5 @@ def divizao(x, y):
 #
 # def test_divizao():
 #     assert 7 == divizao(2, 5)
+
+
