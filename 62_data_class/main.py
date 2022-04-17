@@ -3,7 +3,10 @@ from dataclasses import dataclass
 
 @dataclass
 class Carro:
-    def __init__(self, modelo: str, ano: int):
+    modelo: str
+    ano: int
+
+    def __init__(self, modelo: str, ano: int = 1885):
         self.modelo = modelo
         self.ano = ano
 
