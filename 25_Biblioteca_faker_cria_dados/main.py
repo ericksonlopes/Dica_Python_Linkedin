@@ -1,4 +1,3 @@
-# instalar biblioteca(pip)
 # pip install Faker
 
 from faker import Faker
