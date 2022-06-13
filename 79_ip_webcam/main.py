@@ -1,6 +1,6 @@
 import cv2
 
-ipv4_url = 'http://192.168.0.10:8080'
+ipv4_url = 'http://255.255.255.255:8080'
 
 cam = f"{ipv4_url}/video"
 cap = cv2.VideoCapture(cam)

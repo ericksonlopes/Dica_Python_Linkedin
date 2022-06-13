@@ -2,7 +2,7 @@
 from keytotext import pipeline
 from translate import Translator
 
-palavras_pt_br = ['cadeira', 'eu']
+palavras_pt_br = ['eu', 'camisa', 'carro']
 
 # Configurando tradução
 plv_conf = Translator(from_lang='pt-br', to_lang='english')
