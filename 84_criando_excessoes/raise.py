@@ -1,10 +1,16 @@
-class CodeNotFound(Exception):
-    """ Artista não encontrado """
-    pass
+class PageNotFound(Exception):
+    def __init__(self, message):
+        self.message = message
+
+    def __str__(self):
+        return self.message
 
 
-try:
-    raise CodeNotFound('Erro ao encontrar um artista')
+if __name__ == '__main__':
+    try:
+        raise PageNotFound('Page not found')
+    except PageNotFound as e:
+        print(e)
 
-except CodeNotFound as error:
-    print(error)
+    # [Output]
+    # Page not found
