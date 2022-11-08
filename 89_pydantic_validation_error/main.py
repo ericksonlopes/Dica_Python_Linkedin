@@ -24,3 +24,15 @@ try:
 except ValidationError as e:
     print(e.json(indent=4))
     print(e.errors())
+
+# [Output]
+# [
+#     {
+#         "loc": [
+#             "signup_ts"
+#         ],
+#         "msg": "invalid datetime format",
+#         "type": "value_error.datetime"
+#     }
+# ]
+# [{'loc': ('signup_ts',), 'msg': 'invalid datetime format', 'type': 'value_error.datetime'}]
