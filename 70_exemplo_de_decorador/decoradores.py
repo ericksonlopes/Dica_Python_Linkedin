@@ -1,6 +1,6 @@
 def decorador(func):
     def exibe_uma_mensagem(*args, **kwargs):
-        print(f"chamando a função: func.__name__")
+        print(f"chamando a função: {func.__name__}")
         return func(*args, **kwargs)
 
     return exibe_uma_mensagem
@@ -12,5 +12,5 @@ def dobro(x):
 
 
 print(dobro(10))
-# Chamando funcao: dobro()
+# Chamando funcao: dobro
 # 20
