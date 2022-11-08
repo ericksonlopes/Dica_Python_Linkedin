@@ -1,1 +1,10 @@
-http://127.0.0.1:5000/person
+POST http://127.0.0.1:5000/person
+Accept: application/json
+Content-Type: application/json
+
+{
+  "first_name": "Erickson",
+  "last_name": "content",
+  "age":  15,
+  "is_married": false
+}
