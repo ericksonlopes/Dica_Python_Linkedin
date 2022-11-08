@@ -2,8 +2,8 @@
 from typing import Optional
 
 from flask import Flask
+from flask_pydantic import validate
 from pydantic import BaseModel
-from flask_pydantic import validate, ValidationError
 
 
 class QueryParams(BaseModel):
