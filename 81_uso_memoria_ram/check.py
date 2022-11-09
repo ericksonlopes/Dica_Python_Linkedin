@@ -1,13 +1,19 @@
 """
 verificar o uso de memória de um objeto
 
-:Autor: Erickson
+:Autor: Erickson Lopes
 """
 
 import sys
 
-x = '1'
-print(sys.getsizeof(x))
+string = '1'
+print(sys.getsizeof(string))
+# 50
 
-y = 1
-print(sys.getsizeof(y))
+inteiro = 1
+print(sys.getsizeof(inteiro))
+# 28
+
+dicio = {}
+print(sys.getsizeof(dicio))
+# 64
