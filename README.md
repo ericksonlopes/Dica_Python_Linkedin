@@ -37,3 +37,17 @@ armazenamento comparativamente grande. Gerando um QRCODE.
 
 Rich é uma biblioteca Python para escrever rich text (com cor e estilo) no terminal e para exibir conteúdo avançado,
 como tabelas, markdown e código destacado de sintaxe.
+
+
+
+E se quiser saber mais sobre Python, te convido a acessar o [Blog da Python Academy](https://pythonacademy.com.br/blog/) para aprender tudo sobre:
+ - [Django](https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao)
+ 	- [Camada Model](https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-model)
+ 	- [Camada View](https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-view)
+ 	- [Camada Template](https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template)
+ - [Django REST Framework](https://pythonacademy.com.br/blog/construcao-de-apis-com-django-rest-framework)
+ - [Condicionais `if/elif/else`](https://pythonacademy.com.br/blog/estruturas-condicionais-no-python)
+ - [Listas](https://pythonacademy.com.br/blog/listas-no-python)
+ - [Dicionários](https://pythonacademy.com.br/blog/dicts-ou-dicionarios-no-python)
+ - [Interfaces Gráficas com tkinter](https://pythonacademy.com.br/blog/interfaces-graficas-com-tkinter-e-python)
+ - E muito mais!
