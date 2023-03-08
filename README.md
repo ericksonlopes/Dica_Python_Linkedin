@@ -39,6 +39,7 @@ Rich é uma biblioteca Python para escrever rich text (com cor e estilo) no term
 como tabelas, markdown e código destacado de sintaxe.
 
 
+## 
 
 E se quiser saber mais sobre Python, te convido a acessar o [Blog da Python Academy](https://pythonacademy.com.br/blog/) para aprender tudo sobre:
  - [Django](https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-introducao)
