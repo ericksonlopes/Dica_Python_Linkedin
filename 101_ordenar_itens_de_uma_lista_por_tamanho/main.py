@@ -1,8 +1,6 @@
-l = ["hallo", "welt", "wie", "geht", "es", "dir"]
+items = ["hallo", "welt", "wie", "geht", "es", "dir"]
 
-sort_len = lambda v: (
-    sorted(v, key=lambda x: len(x))
-)
+sorted_l = sorted(items, key=len)
 
-for _ in sort_len(l):
-    print(_)
+for item in sorted_l:
+    print(item)

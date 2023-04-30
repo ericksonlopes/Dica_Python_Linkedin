@@ -1,16 +1,12 @@
 # pip install watchfiles
-
-"""
-Se você quiser refazer automaticamente um processo quando um arquivo for alterado
-"""
-
 from watchfiles import run_process
 
 
-def warn(a):
-    print('Warning: This is a warning' + a)
+def warn(a, b, c=None):
+    print(f'Warning: {a} {b} {c}')
 
 
 if __name__ == '__main__':
     print('Starting')
-    run_process('main.py', target=warn, args=('test',))
+    run_process('teste.txt', target=warn, args=(1, 2), kwargs={"c": "3"})
+
