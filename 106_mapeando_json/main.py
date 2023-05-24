@@ -16,7 +16,7 @@ def mapear_json(json_data):
                 percorrer_json(item, new_path)
 
         else:
-            mapeamento[path] = data
+            mapeamento[path] = type(data)
 
     percorrer_json(json_data)
     return mapeamento
@@ -47,3 +47,11 @@ mapeamento_json = mapear_json(data_json)
 # Imprime o mapeamento
 for k, v in mapeamento_json.items():
     print(f"{k}: {v}")
+
+# Saída:
+# nome: <class 'str'>
+# idade: <class 'int'>
+# endereco.rua: <class 'str'>
+# endereco.cidade: <class 'str'>
+# telefones[0]: <class 'str'>
+# telefones[1]: <class 'str'>
