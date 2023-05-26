@@ -38,6 +38,13 @@ armazenamento comparativamente grande. Gerando um QRCODE.
 Rich é uma biblioteca Python para escrever rich text (com cor e estilo) no terminal e para exibir conteúdo avançado,
 como tabelas, markdown e código destacado de sintaxe.
 
+## [DDL Generator](https://rich.readthedocs.io/en/stable/)
+
+[![Python](https://img.shields.io/badge/-PyPI-3776AB?&logo=PyPI&logoColor=FFFFFF)](https://pypi.org/project/ddlgenerator/)
+[![GitHub](https://img.shields.io/badge/-GitHub-3776AB?&logo=GitHub&logoColor=FFFFFF)](https://github.com/catherinedevlin/ddl-generator)
+
+Rich é uma biblioteca Python para escrever rich text (com cor e estilo) no terminal e para exibir conteúdo avançado,
+como tabelas, markdown e código destacado de sintaxe.
 
 ## 
 
