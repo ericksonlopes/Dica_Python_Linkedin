@@ -1,0 +1,20 @@
+🚀 Dica de Python: Criando agentes inteligentes com CrewAI! 🤖🐍
+
+Você já ouviu falar do CrewAI? É uma biblioteca poderosa para criar agentes de IA colaborativos, ideal para tarefas autônomas, análises, resumos, e até automação de decisões.
+
+Nesta dica, montei um exemplo simples que responde à clássica pergunta:
+"Por que o céu é azul?" ☁️🔵
+
+Com poucos blocos de código, criamos:
+🧠 Um agente com papel, objetivo e histórico definidos
+✅ Uma tarefa clara com descrição e saída esperada
+🤝 Uma equipe para executar tudo de forma orquestrada
+
+Essa estrutura é perfeita para explorar a criação de assistentes, copilotos e automações inteligentes com modelos da OpenAI via LangChain.
+
+➡️ Repositório:
+↩️ Dica anterior: https://www.linkedin.com/posts/ericksonlopes_ai-datascience-machinelearning-activity-7242143624405127168-dfge?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyXrJEBSbOTAQFm74t1QdSaRUOQKbVLmqk
+
+
+🔗 Se curtiu, salva aí pra testar depois!
+#Python #InteligênciaArtificial #CrewAI #LangChain #DesenvolvimentoDeSoftware #Automação #DicasDePython #IA
