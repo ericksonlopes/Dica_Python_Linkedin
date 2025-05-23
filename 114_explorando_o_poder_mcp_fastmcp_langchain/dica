@@ -1,0 +1,30 @@
+🚀 Explorando o Poder do MCP com FastMCP e LangChain! 
+
+Olá, comunidade tech! Hoje quero compartilhar uma experiência incrível trabalhando com Model-Controller-Presenter (MCP) utilizando FastMCP e LangChain.
+
+O MCP é um padrão arquitetural que está revolucionando a forma como desenvolvemos aplicações, especialmente quando combinado com as capacidades avançadas do LangChain para processamento de linguagem natural.
+
+🔧 Como implementar(Após instalar as bibliotecas):
+
+1. Primeiro, inicie o servidor:
+fastmcp install .\server.py
+fastmcp dev .\server.py
+
+2. Em seguida, inicie o cliente:
+python3 .\client.py
+
+💡 Benefícios desta implementação:
+✅ Integração nativa com modelos de linguagem (LLMs)
+✅ Automação e inteligência com menos esforço
+✅ Acelera o desenvolvimento de sistemas inteligentes
+✅ Facilita a criação de agentes autônomos e pipelines de NLP
+
+Esta combinação de tecnologias está transformando a forma como construímos aplicações inteligentes e escaláveis.
+
+➡️ Repositório:
+↩️ Dica anterior: https://www.linkedin.com/posts/ericksonlopes_python-inteligaeanciaartificial-crewai-activity-7330215658481184769-2RV7?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyXrJEBSbOTAQFm74t1QdSaRUOQKbVLmqk
+
+
+#DesenvolvimentoSoftware #MCP #FastMCP #LangChain #Python #InteligênciaArtificial #TechInnovation
+
+Quer saber mais sobre como implementar MCP em seus projetos? Deixe seu comentário abaixo! 👇
