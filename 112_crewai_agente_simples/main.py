@@ -22,7 +22,8 @@ pesquisador = Agent(
 tarefa = Task(
     description="Responda: Por que o céu é azul?",
     expected_output="Uma explicação simples e científica de por que o céu é azul",
-    agent=pesquisador
+    agent=pesquisador,
+    tools=[]  # Adicione ferramentas se necessário
 )
 
 # Cria a equipe e roda
