@@ -1,0 +1,18 @@
+📚 Dica de Python: Aprenda a fazer um rag básico com Agno!
+
+Você sabia que é possível criar um agente inteligente para interagir com PDFs usando Python?
+
+Com a biblioteca Agno, você pode construir uma base de conhecimento a partir de documentos digitais e fazer perguntas específicas!
+
+Basta instalar as dependências e configurar seu ambiente. O Agno facilita a integração com o OpenAI e permite consultas em documentos, tornando seu fluxo de trabalho mais produtivo.
+
+Experimente essa ferramenta e transforme seus dados em insights valiosos! 🚀
+
+🎯 Pontos-chave:
+✅ Instale as bibliotecas necessárias com pip.
+✅ Configure sua chave API do OpenAI.
+✅ Carregue PDFs na base de conhecimento.
+✅ Interaja com seu agente para obter respostas.
+
+🔗 Pronto para explorar o potencial do Agno? Vamos lá!
+#Python #Agno #OpenAI #DataScience #MachineLearning
