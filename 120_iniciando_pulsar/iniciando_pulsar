@@ -1,0 +1,13 @@
+🚀 Dica de Python: Começando com Apache Pulsar!
+
+Você já experimentou o Apache Pulsar? 💡
+✨O Apache Pulsar é uma plataforma de mensageria e streaming distribuída, pensada para cenários de alta escala, baixa latência e processamento de eventos em tempo real. Ele segue o modelo pub/sub: produtores publicam mensagens em tópicos e consumidores assinam esses tópicos para processá-las de forma assíncrona.
+
+🧪 Como testar em 3 passos
+- Instale o client Python
+- Suba o Pulsar em modo standalone (via docker-compose)
+- Execute o consumer.py para consumir a fila e em seguida o producer.py para enviar a mensagem ao tópico `my-topic`.
+
+↩️ Conhecendo o Firecraw: https://www.linkedin.com/posts/ericksonlopes_python-datascience-webscraping-activity-7362120916576722944-BwRr?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyXrJEBSbOTAQFm74t1QdSaRUOQKbVLmqk
+
+🔗 Pronto para testar? Explore os recursos do Pulsar e leve sua aplicação a outro nível!
