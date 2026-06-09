@@ -1,0 +1,15 @@
+🧠 Model Loader: O Singleton que Salva sua Memória
+No WhatYouSaid, gerenciar modelos de IA de vários gigabytes exige uma estratégia rigorosa de memória. Usamos o padrão Singleton com Lazy Loading para garantir eficiência.
+
+📝 O Problema
+Modelos como WhisperX e Pyannote ocupam gigas de VRAM/RAM. Se cada Worker ou Thread criar uma nova instância do modelo, o servidor travará por falta de memória (OOM - Out of Memory) em segundos.
+
+🚀 A Solução: Singleton Thread-Safe
+Criamos um serviço central que garante que cada modelo seja carregado exatamente uma vez e compartilhado por toda a aplicação.
+
+🔑 Por que isso é vital?
+Economia de Recursos: Se você tem 10 threads de processamento, todas usam o mesmo modelo na memória.
+Startup Rápido: O custo de carregamento (que pode levar 30s) só acontece uma vez.
+Segurança: O uso de threading.Lock evita que duas requisições tentem carregar o mesmo modelo simultaneamente, o que causaria crash na GPU.
+
+#Python #Singleton #MachineLearning #AI #MemoryManagement #SoftwareEngineering #WhisperX #Pyannote #Coding #DeepLearning
