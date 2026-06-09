@@ -1,0 +1,17 @@
+# 🪙 Token Accounting: O Controle de Custos e Contexto na Era da IA
+No desenvolvimento de sistemas baseados em LLMs, os tokens são a sua "moeda corrente". No WhatYouSaid, gerenciar o número de tokens por chunk é uma funcionalidade de primeira classe.
+
+📝 O Problema
+As janelas de contexto das LLMs (como as do GPT-4 ou Claude) são limitadas. Se você envia 10 chunks de busca para o modelo, mas não sabe quantos tokens eles somam, você corre dois riscos:
+
+Estourar o limite da API e receber um erro.
+Gastar muito dinheiro enviando contexto irrelevante.
+🚀 A Solução: Pré-contagem e Armazenamento
+Não contamos tokens na hora da pergunta. Fazemos isso na hora da indexação e guardamos no banco de dados.
+
+🔑 Por que isso é estratégico?
+Seleção Inteligente: Podemos configurar o sistema para "Pegar os top N resultados que somem no máximo 4000 tokens".
+Previsibilidade de Custo: Você consegue gerar relatórios exatos de quanto cada vídeo custou para ser processado e quanto cada busca custará.
+Performance: Evita o processamento repetitivo de contagem de tokens em cada busca do usuário.
+
+#IA #LLM #Python #GenerativeAI #SoftwareEngineering #MachineLearning #Tokenization #CostOptimization
